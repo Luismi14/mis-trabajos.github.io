@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo del menú de navegación */
+nav {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de trabajos */
+#trabajos {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+}
+
+.trabajo {
+    margin-bottom: 20px;
+}
+
+.trabajo h3 {
+    color: #333;
+}
+
+.trabajo a {
+    color: #0066cc;
+}
+
+.trabajo a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de contacto */
+#contacto {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
